@@ -1,4 +1,4 @@
-import { DEFAULT_IMAGE } from '../../../assets/defaultImage'
+import { DEFAULT_IMAGE } from '../../assets/defaultImage'
 
 import { StyledImage } from './style'
 
