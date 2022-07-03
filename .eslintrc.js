@@ -8,7 +8,5 @@ const { extends: extendConfigs, overrides } = createConfig({
 module.exports = {
   extends: [...extendConfigs],
   overrides: [...overrides],
-  rules: {
-    '@typescript-eslint/no-unused-vars': 'off',
-  },
+  rules: {},
 }
