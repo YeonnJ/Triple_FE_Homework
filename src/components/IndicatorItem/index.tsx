@@ -1,20 +1,20 @@
 import useCountUp from '../../hooks/useCountUp'
 
-import { MetricsItemParagraph } from './style'
+import { IndicatorItemParagraph } from './style'
 
 interface Props {
   target: number
   unit: string
   additional: string
 }
-const MetricsItem = ({ target, unit, additional }: Props) => {
+const IndicatorItem = ({ target, unit, additional }: Props) => {
   const count = useCountUp(target)
 
   return (
-    <MetricsItemParagraph>
+    <IndicatorItemParagraph>
       <strong>{`${count}${unit}`}</strong>의 {additional}
-    </MetricsItemParagraph>
+    </IndicatorItemParagraph>
   )
 }
 
-export default MetricsItem
+export default IndicatorItem
