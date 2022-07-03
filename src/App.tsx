@@ -1,5 +1,7 @@
+import { Wrapper } from './components/common/Layout'
+
 function App() {
-  return <div>'하이'</div>
+  return <Wrapper>gd</Wrapper>
 }
 
 export default App
