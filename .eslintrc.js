@@ -8,5 +8,7 @@ const { extends: extendConfigs, overrides } = createConfig({
 module.exports = {
   extends: [...extendConfigs],
   overrides: [...overrides],
-  rules: {},
+  rules: {
+    'no-console': 'off',
+  },
 }
