@@ -7,15 +7,6 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html {
-    width: 100%;
-  }
-
-  body {
-    width: 100%;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
-
   #root {
     width: 100%;
     display: flex;
@@ -24,6 +15,17 @@ const GlobalStyle = createGlobalStyle`
   
   ul, li, ol {
     list-style: none;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
   }
 `
 
