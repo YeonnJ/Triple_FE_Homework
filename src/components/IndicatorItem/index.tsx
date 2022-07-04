@@ -7,6 +7,7 @@ interface Props {
   unit: string
   additional: string
 }
+
 const IndicatorItem = ({ target, unit, additional }: Props) => {
   const count = useCountUp(target)
 

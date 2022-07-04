@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { ContentContainer } from '../common/Layout'
+import { ContentContainer } from '../Common/Layout'
 
 export const AwardDetailContainer = styled(ContentContainer)`
   align-items: flex-start;
@@ -11,10 +11,17 @@ export const AwardDetailContainer = styled(ContentContainer)`
   }
 `
 
-export const IndicatorListContainer = styled.ul``
+export const IndicatorListContainer = styled.ul`
+  opacity: 0;
+  animation: fadeIn 0.7s 0.1s ease-in-out;
+  animation-fill-mode: forwards;
+`
 
 export const AwardBadgeListContainer = styled.ul`
   display: flex;
+  opacity: 0;
+  animation: fadeIn 0.7s 0.2s ease-in-out;
+  animation-fill-mode: forwards;
 
   li + li {
     margin-left: 39px;

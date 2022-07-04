@@ -8,6 +8,7 @@ interface Props {
   contents: string
   imageWidth: number
 }
+
 const Badge = ({ src, alt, contents, imageWidth }: Props) => {
   return (
     <BadgeContainer>

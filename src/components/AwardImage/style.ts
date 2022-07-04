@@ -1,13 +1,14 @@
 import styled from 'styled-components'
 
-import { ContentContainer } from '../common/Layout'
+import { ContentContainer } from '../Common/Layout'
 
 export const AwardImageContainer = styled(ContentContainer)`
-  padding: 160px 100px 135px 100px;
-`
+  padding: 160px 100px 135px 50px;
+  animation: fadeIn 0.7s ease-in-out;
 
-export const AwardImageDescription = styled.p`
-  margin-top: -60px;
-  font-size: ${({ theme }) => theme.fontSize.medium};
-  color: ${({ theme }) => theme.colors.gray[300]};
+  p {
+    margin-top: -60px;
+    font-size: ${({ theme }) => theme.fontSize.medium};
+    color: ${({ theme }) => theme.colors.gray[300]};
+  }
 `
