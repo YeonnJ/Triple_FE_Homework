@@ -1,14 +1,16 @@
 # [ 트리플 2022 공개채용 ] 프론트엔드 과제
 
-## 😃 정연재의 Triple-HomeWork FE 저장소 😃
+<h3>😃 정연재의 Triple-HomeWork FE 저장소 😃</h3>
 
 <img src="https://user-images.githubusercontent.com/89297158/177262375-5c9ee5a0-43e4-4ec2-91ba-4d5a8d11f13a.gif" width="800"/>
 
 ### 프로젝트 실행 방법
 
-> `git clone https://github.com/YeonnJ/Triple_FE_Homework.git`
-> `npm install`
-> `npm run start`
+```bash
+git clone https://github.com/YeonnJ/Triple_FE_Homework.git
+npm install
+npm run start
+```
 
 <br />
 
@@ -39,6 +41,7 @@
 
 - `Styled-Components`
   - CSS-in-JS는 Javascript 환경을 최대한 활용가능
+    <br/>
   - JavaScript와 CSS 사이의 상수와 함수를 쉽게 공유
     - React에서는 props를 활용한 조건부 스타일링이 가능
       <br />
