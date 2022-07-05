@@ -1,4 +1,4 @@
-import { Wrapper } from './components/Common/Layout'
+import { Wrapper } from './components/common/Layout'
 import AwardImage from './components/AwardImage'
 import AwardDetail from './components/AwardDetail'
 
