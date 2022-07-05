@@ -1,7 +1,14 @@
-import { Wrapper } from './components/common/Layout'
+import { Wrapper } from './components/Common/Layout'
+import AwardImage from './components/AwardImage'
+import AwardDetail from './components/AwardDetail'
 
 function App() {
-  return <Wrapper>gd</Wrapper>
+  return (
+    <Wrapper>
+      <AwardImage />
+      <AwardDetail />
+    </Wrapper>
+  )
 }
 
 export default App

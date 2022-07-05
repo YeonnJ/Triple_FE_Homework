@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'styled-components'
 
-const font = {
+const fontSize = {
   large: '36px',
   medium: '15px',
   small: '14px',
@@ -14,6 +14,6 @@ const colors = {
   },
 }
 
-const theme: DefaultTheme = { font, colors } as const
+const theme: DefaultTheme = { fontSize, colors } as const
 
 export default theme

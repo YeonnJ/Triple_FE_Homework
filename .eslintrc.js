@@ -9,6 +9,6 @@ module.exports = {
   extends: [...extendConfigs],
   overrides: [...overrides],
   rules: {
-    '@typescript-eslint/no-unused-vars': 'off',
+    'no-console': 'off',
   },
 }
