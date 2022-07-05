@@ -24,14 +24,12 @@ npm run start
 </p>
 
 - `React`
-  - 가상DOM으로 인한 빠른 속도🏃‍♀️
-    - 변경이 필요한 최소한의 변경사항만 실제DOM에 반영해, 앱의 효율성과 속도 개선
-      <br />
-  - 컴포넌트 기반의 화면 구성
-    - 컴포넌트의 역할과 기능에 따라 따로 관리하기 용이
-    - 반복되는 부분을 공통적인 부분으로 분리하여 재사용성을 높여줌
 
-<br />
+  - 가상DOM으로 인한 빠른 속도🏃‍♀️ - 변경이 필요한 최소한의 변경사항만 실제DOM에 반영해, 앱의 효율성과 속도 개선
+    <br />
+
+  - 컴포넌트 기반의 화면 구성 - 컴포넌트의 역할과 기능에 따라 따로 관리하기 용이 - 반복되는 부분을 공통적인 부분으로 분리하여 재사용성을 높여줌
+    <br />
 
 - `TypeScript`
   - 디버깅 과정에서 미리 오류를 발견하여 미래에 발생할 버그를 줄이고 예방이가능
@@ -40,14 +38,15 @@ npm run start
 <br />
 
 - `Styled-Components`
+
   - CSS-in-JS는 Javascript 환경을 최대한 활용가능
     <br/>
-  - JavaScript와 CSS 사이의 상수와 함수를 쉽게 공유
-    - React에서는 props를 활용한 조건부 스타일링이 가능
-      <br />
-  - 현재 사용중인 스타일만 DOM에 포함
 
-<br />
+  - JavaScript와 CSS 사이의 상수와 함수를 쉽게 공유 - React에서는 props를 활용한 조건부 스타일링이 가능
+    <br />
+
+  - 현재 사용중인 스타일만 DOM에 포함
+    <br />
 
 ### 📝 Projects Board
 
@@ -80,12 +79,23 @@ npm run start
 
 </br>
 
+## 📌 Trouble Shooting
+
+### `.eslintrc.js 충돌 문제`
+
+- 빌드 과정에서 eslint 플러그인(react/jsx-runtime) 충돌 문제 발생.
+  <img src="https://user-images.githubusercontent.com/89297158/177355431-29d951c9-8b63-4e10-a026-df84f656fc96.png"/>
+
+<br/>
+
+- 해결책을 도출한 과정은 에러 문구에서 봤듯이 eslint react 쪽에서 문제가 있는 것 같았고, 리액트로 관련된 eslint 플러그인이 eslint-plugin-react가 존재하기 때문에 이를 설치함으로써 문제 해결 함
+  <img src="https://user-images.githubusercontent.com/89297158/177355962-43caddd4-8639-4e5c-8078-0358280581f5.png"/>
+  </br>
+
 ### 참고
 
 - [Ease 애니메이션 차트 시트](https://easings.net/ko)
-
 - [Ease 함수 자바스크립트 구현](https://spicyyoghurt.com/tools/easing-functions)
-
 - [transition ease in-out 차이점](https://chinsun9.github.io/2021/06/18/transition-timing-function/)
 
 </br>
