@@ -22,7 +22,7 @@ const useCountUp: UseCountUp = (target, start = 0, duration = 2000) => {
         clearInterval(countUpInterval)
       }
     }, frameRate)
-  }, [])
+  }, [target, start, frameRate, totalFrame])
 
   return count
 }
