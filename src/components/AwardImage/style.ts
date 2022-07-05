@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { ContentContainer } from '../Common/Layout'
+import { ContentContainer } from '../common/Layout'
 
 export const AwardImageContainer = styled(ContentContainer)`
   padding: 160px 100px 135px 50px;
