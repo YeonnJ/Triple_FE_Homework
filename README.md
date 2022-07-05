@@ -4,6 +4,12 @@
 
 <img src="https://user-images.githubusercontent.com/89297158/177262375-5c9ee5a0-43e4-4ec2-91ba-4d5a8d11f13a.gif" width="800"/>
 
+### 배포주소
+
+https://gentle-bombolone-e91b62.netlify.app/
+
+<br />
+
 ### 프로젝트 실행 방법
 
 ```bash
@@ -12,7 +18,7 @@ npm install
 npm run start
 ```
 
-<br />
+<br/>
 
 ## 🔖 기술스택 및 주요 라이브러리 & 사용한 이유
 
