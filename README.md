@@ -79,6 +79,7 @@ npm run start
 #### [Triple_FE_Homework 칸반보드 바로가기](https://github.com/YeonnJ/Triple_FE_Homework/projects/1)
 
 <br/>
+
 ### `📝 이슈 & 풀리퀘 등록`
 
 <img width="100%" alt="스크린샷 2022-07-06 오전 2 29 30" src="https://user-images.githubusercontent.com/89297158/177383549-ae45fd73-6383-40db-a6e8-0ed7d53ca764.png">
@@ -113,16 +114,35 @@ npm run start
 
 </br>
 
+## 😎 메인기능 구현
+
+- [x] countUp, 숫자가 올라가는 애니메이션 기능
+  - useCounter Hook으로 관리
+  - easeOutExpo 함수로 매끄러운 애니메이션 구현
+  - target을 인자로 받아서 0부터 2초동안 숫자올라가는 애니메이션 기능구현
+  - setInterval 함수를 사용
+
+<br/>
+
+- [x] 순서대로 등장하는 애니메이션 기능
+  - keyframe을 사용하여 fadeIn 애니메이션 구현
+  - opacity, transform 사용으로 애니메이션 최적화
+  - animation ease-in-out 적용
+  - delay를 0.1s로 애니메이션 사이 간격을 조절
+  - animation-fill-mode: forwards를 사용하여 애니메이션 마지막 상태 유지
+
+<br>
+
 ## 📌 Trouble Shooting
 
 ### `.eslintrc.js 충돌 문제`
 
 - 빌드 과정에서 eslint 플러그인(react/jsx-runtime) 충돌 문제 발생.<br/>
   <img src="https://user-images.githubusercontent.com/89297158/177355431-29d951c9-8b63-4e10-a026-df84f656fc96.png"/>
+  <br/>
 
-<br/>
-
-- 해결책을 도출한 과정은 에러 문구에서 봤듯이 eslint react 쪽에서 문제가 있는 것 같았고, <br/> 1. 리액트로 관련된 eslint 플러그인이 eslint-plugin-react가 존재하기 때문에 패키지 설치 후 해결함. <br/> 2. react-scripts 버전을 5.0.1 -> 4.0.3로 다운. <br/>
+- 해결책을 도출한 과정은 에러 문구에서 봤듯이 eslint react 쪽에서 문제가 있는 것 같았고, <br/> 1. 리액트로 관련된 eslint 플러그인이 eslint-plugin-react가 존재하기 때문에 패키지 설치 후 해결함. <br/> 2. react-scripts 버전을 5.0.1 -> 4.0.3로 다운.
+  <br/>
   <img src="https://user-images.githubusercontent.com/89297158/177355962-43caddd4-8639-4e5c-8078-0358280581f5.png"/>
   </br>
 
