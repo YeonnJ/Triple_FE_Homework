@@ -12,6 +12,7 @@ https://gentle-bombolone-e91b62.netlify.app/
 
 ```bash
 git clone https://github.com/YeonnJ/Triple_FE_Homework.git
+cd Triple_FE_Homework
 npm install
 npm run start
 ```
