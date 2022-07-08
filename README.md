@@ -68,14 +68,14 @@ npm run start
 1. 요구사항 분석
 2. 이슈 등록
 3. feature 브랜치 생성
-4. 개발 완료 후 dev로 pull request 생성 후 병합
+4. 개발 완료 후 dev로 pull request 생성 후 병합, feature branch 제거
 5. 1~4번 반복
 6. 모든 개발 완료 후 master 병합 및 운영 배포
    <br/>
 
 ### `📝 프로젝트 칸반보드`
 
- <img src="https://user-images.githubusercontent.com/89297158/177271811-eef3a0bc-faf2-42ac-a0aa-0a13c6f66e40.png" alt="TypeScript" />
+ <img src="https://user-images.githubusercontent.com/89297158/177918324-06c7eb45-3a75-41d1-a3d4-56ca96e6830e.png" alt="TypeScript" />
 
 #### [Triple_FE_Homework 칸반보드 바로가기](https://github.com/YeonnJ/Triple_FE_Homework/projects/1)
 
@@ -142,10 +142,9 @@ npm run start
   <img src="https://user-images.githubusercontent.com/89297158/177355431-29d951c9-8b63-4e10-a026-df84f656fc96.png"/>
   <br/>
 
-- 해결책을 도출한 과정은 에러 문구에서 봤듯이 eslint react 쪽에서 문제가 있는 것 같았고, <br/> 1. 리액트로 관련된 eslint 플러그인이 eslint-plugin-react가 존재하기 때문에 패키지 설치 후 해결함. <br/> 2. react-scripts 버전을 5.0.1 -> 4.0.3로 다운.
+- 해결책을 도출한 과정은 에러 문구에서 봤듯이 eslint react 쪽에서 문제가 있는 것 같아서 리액트로 관련된 eslint 플러그인이 eslint-plugin-react가 존재하기 때문에 패키지 설치 후 해결하였고, useCountUp 커스텀 훅 작성 후에 eslint 에러가 발생해서 eslint-plugin-react-hooks을 추가했습니다.
   <br/>
   <img src="https://user-images.githubusercontent.com/89297158/177355962-43caddd4-8639-4e5c-8078-0358280581f5.png"/>
-  </br>
 
 ### 참고
 
